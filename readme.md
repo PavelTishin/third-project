@@ -28,3 +28,12 @@ git init
 Это лишь некоторые функции markdown.
 
 [Яндекс](https://www.yandex.ru)
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+``` 
